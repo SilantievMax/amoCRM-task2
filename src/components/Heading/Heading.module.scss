@@ -1,0 +1,27 @@
+@import 'vars';
+
+.heading {
+  font-family: $font400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #e4e5ea;
+}
+
+.small {
+  font-family: $font900;
+  font-size: 48px;
+  line-height: 58px;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.description {
+  font-family: $font400M;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e4e5ea;
+  margin-top: 30px;
+}
