@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Inter-Black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Bebas Neue Cyrillic'),
+    url('assets/fonts/Inter-Black.woff2') format('woff2'),
+    url('assets/fonts/Inter-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bebas Neue Cyrillic'),
+    url('assets/fonts/Inter-Bold.woff2') format('woff2'),
+    url('assets/fonts/Inter-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Bebas Neue Cyrillic'),
+    url('assets/fonts/Inter-Medium.woff2') format('woff2'),
+    url('assets/fonts/Inter-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bebas Neue Cyrillic'),
+    url('assets/fonts/Inter-Regular.woff2') format('woff2'),
+    url('assets/fonts/Inter-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Bebas Neue Cyrillic'),
+    url('assets/fonts/Montserrat-Light.woff2') format('woff2'),
+    url('assets/fonts/Montserrat-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bebas Neue Cyrillic'),
+    url('assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('assets/fonts/Montserrat-Regular.woff') format('woff');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter-Regular', sans-serif;
+  margin: 0;
+  background: #0E1014;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
