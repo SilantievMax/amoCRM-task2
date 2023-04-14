@@ -1,7 +1,14 @@
-import React from 'react'
+import Header from 'components/Header/Header'
+import Layout from 'components/Layout/Layout'
 
 const App = () => {
-  return <div>App</div>
+  return (
+    <div>
+      <Layout>
+        <Header />
+      </Layout>
+    </div>
+  )
 }
 
 export default App
