@@ -9,7 +9,7 @@ const Services = () => {
         Вместе с 
         <span>
           бесплатной <br /> консультацией
-        </span>
+        </span>{' '}
         мы дарим:
       </h3>
       <ul className={styles.list}>
