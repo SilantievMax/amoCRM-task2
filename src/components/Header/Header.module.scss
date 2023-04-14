@@ -58,6 +58,11 @@
     cursor: pointer;
     width: 20px;
     height: 20px;
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
 
     &:not(:last-child) {
       margin-right: 30px;
