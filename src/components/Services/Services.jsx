@@ -4,7 +4,7 @@ import styles from './Services.module.scss'
 
 const Services = () => {
   return (
-    <div>
+    <div className={styles.block}>
       <h3 className={styles.heading}>
         Вместе с 
         <span>

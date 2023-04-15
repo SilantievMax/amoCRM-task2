@@ -25,3 +25,15 @@
   color: #e4e5ea;
   margin-top: 30px;
 }
+
+@import 'media_breackpoint';
+
+@include mobile {
+  .heading {
+    font-size: 38px;
+  }
+
+  .small {
+    font-size: 38px;
+  }
+}

@@ -1,5 +1,10 @@
+@import 'media_breackpoint';
 $padding: 20px;
 $widtg-site: 1140px;
+
+@include tablet {
+  $padding: 8px;
+}
 
 .layout {
   width: 100%;

@@ -1,0 +1,13 @@
+@import 'media_breackpoint';
+
+
+
+@include tablet {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn_block {
+    display: none;
+  }
+}
