@@ -64,6 +64,14 @@ body {
   background: #0e1014;
   color: #e4e5ea;
   min-height: 100vh;
+
+  background-image: url('./assets/img/red_light.png'),
+    url('./assets/img/red_ball_big.png'), url('./assets/img/purple_light.png'),
+    url('./assets/img/red_ball_small.png'), url('./assets/img/purple_ball.png');
+  background-position: top left, top 60px left 40%, top 0px left 50%,
+    top 60% left 65%, top right 30%;
+
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 }
 
 a {
