@@ -6,10 +6,10 @@ import Main from 'components/Main/Main'
 const App = () => {
   return (
     <div>
+      <Header />
       <Layout>
-        <Header />
-        <Main />
-        <Footer />
+        {/* <Main /> */}
+        {/* <Footer /> */}
       </Layout>
     </div>
   )
