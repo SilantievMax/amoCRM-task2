@@ -1,0 +1,26 @@
+@import 'media_breackpoint';
+
+@include laptop {
+}
+
+@include tablet {
+  .list {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .copy_block {
+    align-items: start;
+  }
+  .icon {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .item {
+    margin-top: 30px;
+    &:last-child {
+      align-items: start;
+    }
+  }
+}

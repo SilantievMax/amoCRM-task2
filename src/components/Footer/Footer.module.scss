@@ -35,6 +35,16 @@
   }
 }
 
+.list_blosk {
+  display: flex;
+  gap: 30px;
+}
+
+.item_blosk {
+  display: flex;
+  flex-direction: column;
+}
+
 .heading {
   font-family: $font700;
   font-size: 14px;
@@ -79,3 +89,5 @@
     margin-top: 5px;
   }
 }
+
+@import './footer-media';

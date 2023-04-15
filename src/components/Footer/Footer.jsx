@@ -13,20 +13,36 @@ const Footer = () => {
         </li>
         <li className={styles.item}>
           <h6 className={styles.heading}>Меню</h6>
-          <a href='#'>Расчёт стоимости</a>
+          {/* <a href='#'>Расчёт стоимости</a>
           <a href='#'>Услуги</a>
           <a href='#'>Услуги</a>
           <a href='#'>Интеграции</a>
-          <a href='#'>Наши клиенты</a>
+          <a href='#'>Наши клиенты</a> */}
+          <ul className={styles.list_blosk}>
+            <li className={styles.item_blosk}>
+              <a href='#'>Расчёт стоимости</a>
+              <a href='#'>Услуги</a>
+              <a href='#'>Услуги</a>
+              <a href='#'>Интеграции</a>
+              <a href='#'>Наши клиенты</a>
+            </li>
+            <li className={styles.item_blosk}>
+              <a href='#'>Кейсы</a>
+              <a href='#'>Благодарственные письма</a>
+              <a href='#'>Сертификаты</a>
+              <a href='#'>Блог на Youtube</a>
+              <a href='#'>Вопрос / Ответ</a>
+            </li>
+          </ul>
         </li>
-        <li className={styles.item}>
+        {/* <li className={styles.item}>
           <h6 className={styles.heading}>&ensp;</h6>
           <a href='#'>Кейсы</a>
           <a href='#'>Благодарственные письма</a>
           <a href='#'>Сертификаты</a>
           <a href='#'>Блог на Youtube</a>
           <a href='#'>Вопрос / Ответ</a>
-        </li>
+        </li> */}
         <li className={styles.item}>
           <h6 className={styles.heading}>Контакты</h6>
           <a href='tel:+75555555555'>+7 555 555-55-55</a>
