@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ee6c7cfa.css",
+    "main.js": "./static/js/main.7cdeecfb.js",
+    "static/media/red_light.png": "./static/media/red_light.c23520180e90a5556bdd.png",
+    "static/media/Montserrat-Regular.woff2": "./static/media/Montserrat-Regular.df4dd6155beb82a76795.woff2",
+    "static/media/Montserrat-Light.woff2": "./static/media/Montserrat-Light.5c8b23f9288fea622c9a.woff2",
+    "static/media/purple_light.png": "./static/media/purple_light.a8f91bbfa902b6841dc8.png",
+    "static/media/Inter-Bold.woff": "./static/media/Inter-Bold.3cf58596269ad13bb894.woff",
+    "static/media/Inter-Medium.woff": "./static/media/Inter-Medium.e369b71584c45eda4869.woff",
+    "static/media/Inter-Black.woff": "./static/media/Inter-Black.712d1a29be8e95c68edf.woff",
+    "static/media/Montserrat-Regular.woff": "./static/media/Montserrat-Regular.cad712b43a514d2e5876.woff",
+    "static/media/Inter-Regular.woff": "./static/media/Inter-Regular.d92cbb210950cc252907.woff",
+    "static/media/Montserrat-Light.woff": "./static/media/Montserrat-Light.20705a7edb7e0e606fe8.woff",
+    "static/media/Inter-Bold.woff2": "./static/media/Inter-Bold.5055fedf1fc1dfae80aa.woff2",
+    "static/media/Inter-Medium.woff2": "./static/media/Inter-Medium.e11c789edffb34e94493.woff2",
+    "static/media/Inter-Black.woff2": "./static/media/Inter-Black.84b39de0e0014b611c4c.woff2",
+    "static/media/Inter-Regular.woff2": "./static/media/Inter-Regular.c0db08626b6256071bdc.woff2",
+    "static/media/red_ball_big.png": "./static/media/red_ball_big.f626c42b96919b0f6e75.png",
+    "static/media/purple_ball.png": "./static/media/purple_ball.d68124142375b413cbc8.png",
+    "static/media/logo_welbex.svg": "./static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "./static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "./static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "./index.html",
+    "static/media/telegram.svg": "./static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.ee6c7cfa.css.map": "./static/css/main.ee6c7cfa.css.map",
+    "main.7cdeecfb.js.map": "./static/js/main.7cdeecfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee6c7cfa.css",
+    "static/js/main.7cdeecfb.js"
+  ]
+}
