@@ -1,9 +1,10 @@
 @import 'media_breackpoint';
 
-@include laptop {
-}
-
 @include tablet {
+  .footer {
+    background-color: #0e1014;
+  }
+
   .list {
     flex-direction: column;
     align-items: start;

@@ -9,8 +9,8 @@ const App = () => {
       <Header />
       <Layout>
         <Main />
-        <Footer />
       </Layout>
+      <Footer />
     </div>
   )
 }
